@@ -15,6 +15,6 @@ resource "aws_instance" "instance" {
   instance_type = "t2.nano"
 
   tags = {
-    "Name" = "datacenter-ec2"
+    "Name" = var.instance_name
   }
 }
