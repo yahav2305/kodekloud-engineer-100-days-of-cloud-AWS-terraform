@@ -9,3 +9,7 @@ variable "secret_key" {
   sensitive   = true
   description = "Secret key of AWS IAM user"
 }
+
+variable "iam_user_name" {
+  type = string
+}
