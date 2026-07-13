@@ -1,2 +1,5 @@
-access_key = ""
-secret_key = ""
+access_key           = ""
+secret_key           = ""
+volume_name          = ""
+snapshot_name        = ""
+snapshot_description = ""
